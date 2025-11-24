@@ -82,3 +82,72 @@ body{
     text-align: center;
     box-shadow: 0px 0px 15px yellow;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+    margin-top: 5%;
+    color: #ffd166;
+}
+h2{
+    color: #ffd166;
+}
+p {
+    color: #ffffff;
+    margin-right: 50%;
+}
+img {
+    padding: 5px;
+    width: 200px;
+    height: 300px;
+}
+.course {
+    display: flex;
+    align-items: flex-start;
+}
+
+.course p {
+    margin-right: 0;
+    width: 60%;
+}
+
+.course img {
+    width: 200px;
+    height: auto;
+}
+
+table {
+    color: antiquewhite;
+    background-color: beige;
+}
+.toolbar{
+
+    top: 10px;
+    width: 99%;
+    height: 50px;
+    text-align: center;
+    background-color: #02936d;
+    color: #ffd166;
+    font-size: 40px;
+}
+a:link{
+    color:#ffd166;
+}
+a:visited{
+    color:#ffb303;
+}
+a:hover{
+    color: #ef476f;
+}
