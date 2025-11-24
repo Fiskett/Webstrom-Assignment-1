@@ -1,7 +1,7 @@
 body{
     background-color: #D5D8AE;
 }
-.Homepage_main_heading{
+.panel-bar{
     position: fixed;
     top: 20px;
     left: 15px;
@@ -13,10 +13,10 @@ body{
     color: #D5D8AE;
     box-shadow: 3px 3px 20px #669799;
 }
-.Homepage_main_heading:hover{
+.panel-bar:hover{
     box-shadow: 3px 3px 20px #f16524;
 }
-.Bootcamp_content{
+.heading-course-content{
     position: fixed;
     top: 280px;
     left: 15px;
@@ -28,18 +28,7 @@ body{
     color: #D5D8AE;
     box-shadow: 3px 3px 20px #669799;
 }
-table{
-    position: fixed;
-    top: 685px;
-    left: 525px;
-    font-family: Lemon Milk Light;
-    font-size: 18px;
-    background-color: #669799;
-    color: #E5EDE6;
-    text-align: center;
-    box-shadow: 0px 0px 15px yellow;
-}
-.Content_learn_list{
+.topic-list{
     position: fixed;
     top: 320px;
     left: 650px;
@@ -47,8 +36,12 @@ table{
     font-size: 20px;
     color: #574C46;
 }
-.Content_learn_list:hover{
+.topic-list:hover{
     text-shadow: 0px 0px 30px green;
+}
+.topic-list:hover{
+    transform: scale(1.1);
+        transition-duration: 2s;
 }
 .img1{
     position: fixed;
@@ -64,10 +57,10 @@ table{
     width: 60px;
     height: 60px;
 }
-.Contact{
+.heading-price-plans{
     position: fixed;
     width: 98%;
-    top: 620px;
+    top: 500px;
     text-align: center;
     font-family: Lemon Milk Medium;
     font-size: 30px;
@@ -75,6 +68,17 @@ table{
     background-color: #669799;
     box-shadow: 5px 5px 20px #669799;
 }
-.Contact:hover{
+.heading-price-plans:hover{
     box-shadow: 0px 0px 25px yellow;
+}
+.plans-table{
+    position: fixed;
+    top: 570px;
+    left: 525px;
+    font-family: Lemon Milk Light;
+    font-size: 18px;
+    background-color: #669799;
+    color: #E5EDE6;
+    text-align: center;
+    box-shadow: 0px 0px 15px yellow;
 }
