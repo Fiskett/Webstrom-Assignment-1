@@ -1,0 +1,80 @@
+body{
+    background-color: #D5D8AE;
+}
+.Homepage_main_heading{
+    position: fixed;
+    top: 20px;
+    left: 15px;
+    width: 98%;
+    background-color: #669799;
+    font-family: Deep Shadow;
+    font-size: 40px;
+    text-align: center;
+    color: #D5D8AE;
+    box-shadow: 3px 3px 20px #669799;
+}
+.Homepage_main_heading:hover{
+    box-shadow: 3px 3px 20px #f16524;
+}
+.Bootcamp_content{
+    position: fixed;
+    top: 280px;
+    left: 15px;
+    width: 98%;
+    background-color: #669799;
+    font-family: Lemon Milk Medium;
+    font-size: 30px;
+    text-align: center;
+    color: #D5D8AE;
+    box-shadow: 3px 3px 20px #669799;
+}
+table{
+    position: fixed;
+    top: 685px;
+    left: 525px;
+    font-family: Lemon Milk Light;
+    font-size: 18px;
+    background-color: #669799;
+    color: #E5EDE6;
+    text-align: center;
+    box-shadow: 0px 0px 15px yellow;
+}
+.Content_learn_list{
+    position: fixed;
+    top: 320px;
+    left: 650px;
+    font-family: Lemon Milk Medium;
+    font-size: 20px;
+    color: #574C46;
+}
+.Content_learn_list:hover{
+    text-shadow: 0px 0px 30px green;
+}
+.img1{
+    position: fixed;
+    left: 1365px;
+    top: 27px;
+    width: 60px;
+    height: 60px;
+}
+.img2{
+    position: fixed;
+    left: 110px;
+    top: 27px;
+    width: 60px;
+    height: 60px;
+}
+.Contact{
+    position: fixed;
+    width: 98%;
+    top: 620px;
+    text-align: center;
+    font-family: Lemon Milk Medium;
+    font-size: 30px;
+    color: #D5D8AE;
+    background-color: #669799;
+    box-shadow: 5px 5px 20px #669799;
+}
+.Contact:hover{
+    box-shadow: 0px 0px 25px yellow;
+}
