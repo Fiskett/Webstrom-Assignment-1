@@ -16,6 +16,17 @@ body{
 .panel-bar:hover{
     box-shadow: 3px 3px 20px #f16524;
 }
+.pages{
+    position:fixed;
+    top: 120px;
+    left: 615px;
+    color: #D5D8AE;
+    font-family: Lemon Milk Medium;
+    font-size: 30px;
+    background-color: #669799;
+    text-align: center;
+
+}
 .heading-course-content{
     position: fixed;
     top: 280px;
@@ -41,25 +52,33 @@ body{
 }
 .topic-list:hover{
     transform: scale(1.1);
-        transition-duration: 2s;
+        transition-duration: 1s;
 }
 .img1{
     position: fixed;
     left: 1365px;
-    top: 27px;
+    top: 22px;
     width: 60px;
     height: 60px;
 }
+.img1:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
 .img2{
     position: fixed;
-    top: 27px;
+    top: 22px;
     left: 105px;
     width: 60px;
     height: 60px;
 }
+.img2:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
 .heading-price-plans{
     position: fixed;
-    width: 98%;
+    width: 98.9%;
     top: 500px;
     text-align: center;
     font-family: Lemon Milk Medium;
@@ -99,19 +118,23 @@ body{
 
 h1 {
     margin-top: 5%;
-    color: #ffd166;
+    color: #669799;
 }
 h2{
-    color: #ffd166;
+    color: #669799;
 }
 p {
-    color: #ffffff;
+    color: #574C46;
     margin-right: 50%;
 }
 img {
     padding: 5px;
     width: 200px;
     height: 300px;
+}
+img:hover{
+    transform: rotateY(360deg);
+    transition-duration: 3s;
 }
 .course {
     display: flex;
@@ -138,16 +161,19 @@ table {
     width: 99%;
     height: 50px;
     text-align: center;
-    background-color: #02936d;
-    color: #ffd166;
+    background-color: #669799;
+    color: #D5D8AE;
     font-size: 40px;
 }
 a:link{
-    color:#ffd166;
+    color: #D5D8AE;
+    text-decoration: none;
 }
 a:visited{
-    color:#ffb303;
+    color: blue;
+    text-decoration: none;
 }
 a:hover{
     color: #ef476f;
+    text-decoration: none;
 }
